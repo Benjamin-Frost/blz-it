@@ -12,20 +12,19 @@ function Home() {
   return (
     <div>
       <Jumbotron style={{ backgroundColor: "#ed8b00" }}>
-        <Container>
+        <Container className="text-white">
           <Image
             src={wsgLogo}
-            rounded
             fluid
             width="300"
             className="mx-auto d-block mb-5"
           />
-          <h1 className="text-white text-center">
+          <h1 className="text-center">
             WorldSkills Germany Bundes
             <wbr />
             leistungszentren im IT-Bereich
           </h1>
-          <h5 className="text-white text-justify px-2 pt-3">
+          <h5 className="text-justify px-2 pt-3">
             Die WorldSkills Germany - Bundesleistungszentren haben die Aufgabe,
             zusätzlich zu den Trainings nach WorldSkills-Prinzipien für eine
             möglichst breite Teilnehmerschaft auch die zukünftigen Mitglieder
@@ -60,6 +59,7 @@ function Home() {
               das Bundesleistungszentrum.
             </p>
             <Button
+              href="/skill09"
               variant="outline-dark"
               size="lg"
               className="rounded-pill mb-4 mb-md-0"
