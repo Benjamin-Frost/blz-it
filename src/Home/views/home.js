@@ -6,6 +6,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Row from "react-bootstrap/Row";
 
 import wsgLogo from "../../assets/img/wsg.png";
+import aeg from "../../assets/img/aeg.jpg";
 
 function Home() {
   return (
@@ -16,7 +17,7 @@ function Home() {
             src={wsgLogo}
             rounded
             fluid
-            width="250"
+            width="300"
             className="mx-auto d-block mb-5"
           />
           <h1 className="text-white text-center">
@@ -67,23 +68,15 @@ function Home() {
             </Button>
           </Col>
           <Col xs={12} md={6}>
-            <Image
-              src="https://designshack.net/wp-content/uploads/placeholder-image.png"
-              rounded
-              fluid
-            />
+            <Image src={aeg} rounded fluid />
           </Col>
         </Row>
         <Row className="my-4 py-4">
           <Col xs={12} md={6} className="order-sm-last order-md-first">
-            <Image
-              src="https://designshack.net/wp-content/uploads/placeholder-image.png"
-              rounded
-              fluid
-            />
+            <Image src={aeg} rounded fluid />
           </Col>
           <Col xs={12} md={6} className="order-sm-first order-md-last">
-            <h3>Skill39 – MMBBS</h3>
+            <h3>Skill39 – MMBbS</h3>
             <p className="text-justify">
               Die{" "}
               <a
@@ -97,6 +90,9 @@ function Home() {
               Systems Administration.
             </p>
             <Button
+              href="https://www.worldskillsgermany.com/de/wettbewerbe/leistungszentren/"
+              target="_blank"
+              rel="noopener noreferrer"
               variant="outline-dark"
               size="lg"
               className="rounded-pill mb-4 mb-md-0"
