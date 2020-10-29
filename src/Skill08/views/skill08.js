@@ -5,12 +5,13 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Row from "react-bootstrap/Row";
 
 import wsgLogo from "../../assets/img/wsg.png";
+import headerDivider from "../../assets/img/header-divider.svg";
 
 function Skill08() {
   return (
     <div>
-      <Jumbotron className="bg-gradient">
-        <Container className="text-white text-center">
+      <Jumbotron className="bg-gradient position-relative">
+        <Container className="text-white text-center pb-xl">
           <Row>
             <Col xs={12} md={6}>
               <Image
@@ -27,12 +28,15 @@ function Skill08() {
           <Row className="pt-5">
             <Col>
               <h1 className="display-4">Mobile App Development</h1>
-              <h3>
+              <h2>
                 Die besten jungen Appentwickler Deutschlands werden gesucht
-              </h3>
+              </h2>
             </Col>
           </Row>
         </Container>
+        <div class="header-divider">
+          <Image src={headerDivider} />
+        </div>
       </Jumbotron>
     </div>
   );

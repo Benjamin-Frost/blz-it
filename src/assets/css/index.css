@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .bg-gradient {
   background-image: linear-gradient(
       to right,
@@ -21,4 +25,26 @@ code {
     url("../img/header-bg.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.pb-xl {
+  padding-bottom: 7rem;
+}
+
+.header-divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.header-divider img {
+  position: relative;
+  display: block;
+  width: calc(167% + 1.3px);
+  height: 91px;
+  transform: rotateY(180deg);
 }

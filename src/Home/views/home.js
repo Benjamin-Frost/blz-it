@@ -7,12 +7,13 @@ import Row from "react-bootstrap/Row";
 
 import wsgLogo from "../../assets/img/wsg.png";
 import aeg from "../../assets/img/aeg.jpg";
+import headerDivider from "../../assets/img/header-divider.svg";
 
 function Home() {
   return (
     <div>
-      <Jumbotron className="bg-gradient">
-        <Container className="text-white">
+      <Jumbotron className="bg-gradient position-relative">
+        <Container className="text-white pb-xl">
           <Image
             src={wsgLogo}
             fluid
@@ -35,6 +36,9 @@ function Home() {
             gemeinsam mit WorldSkills Germany.
           </h5>
         </Container>
+        <div class="header-divider">
+          <Image src={headerDivider} />
+        </div>
       </Jumbotron>
       <Container className="mt-5">
         <Row>
