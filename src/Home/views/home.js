@@ -11,7 +11,7 @@ import aeg from "../../assets/img/aeg.jpg";
 function Home() {
   return (
     <div>
-      <Jumbotron style={{ backgroundColor: "#ed8b00" }}>
+      <Jumbotron className="bg-gradient">
         <Container className="text-white">
           <Image
             src={wsgLogo}

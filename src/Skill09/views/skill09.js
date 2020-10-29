@@ -9,7 +9,7 @@ import wsgLogo from "../../assets/img/wsg.png";
 function Skill09() {
   return (
     <div>
-      <Jumbotron style={{ backgroundColor: "#ed8b00" }}>
+      <Jumbotron className="bg-gradient">
         <Container className="text-white text-center">
           <Row>
             <Col xs={12} md={6}>
@@ -21,7 +21,7 @@ function Skill09() {
               />
             </Col>
             <Col xs={12} md={6} className="align-self-center">
-              <h1 className="display-1">Skill 09</h1>
+              <h1 className="display-1 mb-0">Skill 09</h1>
             </Col>
           </Row>
           <Row className="pt-5">
