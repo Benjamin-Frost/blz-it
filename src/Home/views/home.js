@@ -43,7 +43,7 @@ function Home() {
           </Col>
         </Row>
         <Row className="my-4 py-4">
-          <Col xs={12} md={6}>
+          <Col xs={12} md={6} className="order-last order-md-first">
             <h3>Skill08 &amp; Skill09 – AEG</h3>
             <p className="text-justify">
               Für die Softwarentwicklung-Skills, Skill08 – Mobile App
@@ -59,23 +59,35 @@ function Home() {
               das Bundesleistungszentrum.
             </p>
             <Button
+              href="/skill08"
+              variant="outline-dark"
+              size="lg"
+              className="rounded-pill"
+            >
+              Zu Skill 08
+            </Button>
+            <Button
               href="/skill09"
               variant="outline-dark"
               size="lg"
-              className="rounded-pill mb-4 mb-md-0"
+              className="rounded-pill ml-3"
             >
-              Mehr Informationen
+              Zu Skill 09
             </Button>
           </Col>
-          <Col xs={12} md={6}>
+          <Col
+            xs={12}
+            md={6}
+            className="order-first order-md-last mb-4 mb-md-0"
+          >
             <Image src={aeg} rounded fluid />
           </Col>
         </Row>
         <Row className="my-4 py-4">
-          <Col xs={12} md={6} className="order-sm-last order-md-first">
+          <Col xs={12} md={6} className="order-first mb-4 mb-md-0">
             <Image src={aeg} rounded fluid />
           </Col>
-          <Col xs={12} md={6} className="order-sm-first order-md-last">
+          <Col xs={12} md={6} className="order-last">
             <h3>Skill39 – MMBbS</h3>
             <p className="text-justify">
               Die{" "}
@@ -95,9 +107,9 @@ function Home() {
               rel="noopener noreferrer"
               variant="outline-dark"
               size="lg"
-              className="rounded-pill mb-4 mb-md-0"
+              className="rounded-pill"
             >
-              Mehr Informationen
+              Zu Skill 39
             </Button>
           </Col>
         </Row>
