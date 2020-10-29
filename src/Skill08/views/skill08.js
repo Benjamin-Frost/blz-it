@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 
 import wsgLogo from "../../assets/img/wsg.png";
 
-function Skill09() {
+function Skill08() {
   return (
     <div>
       <Jumbotron className="bg-gradient">
@@ -21,14 +21,14 @@ function Skill09() {
               />
             </Col>
             <Col xs={12} md={6} className="align-self-center">
-              <h1 className="display-1 mb-0">Skill 09</h1>
+              <h1 className="display-1 mb-0">Skill 08</h1>
             </Col>
           </Row>
           <Row className="pt-5">
             <Col>
-              <h1 className="display-4">Software Development for Business</h1>
+              <h1 className="display-4">Mobile App Development</h1>
               <h3>
-                Die besten jungen Softwareentwickler Deutschlands werden gesucht
+                Die besten jungen Appentwickler Deutschlands werden gesucht
               </h3>
             </Col>
           </Row>
@@ -38,4 +38,4 @@ function Skill09() {
   );
 }
 
-export default Skill09;
+export default Skill08;

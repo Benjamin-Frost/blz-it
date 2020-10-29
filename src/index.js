@@ -6,6 +6,7 @@ import "./assets/css/index.css";
 
 import Home from "./Home";
 import Skill09 from "./Skill09";
+import Skill08 from "./Skill08";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,6 +17,9 @@ ReactDOM.render(
         </Route>
         <Route path="/skill09">
           <Skill09 />
+        </Route>
+        <Route path="/skill08">
+          <Skill08 />
         </Route>
       </Switch>
     </Router>
