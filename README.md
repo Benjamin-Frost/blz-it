@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# BLZ IT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+`BLZ IT` stands for `Bundesleistungszentrum IT` which can roughly be translated to `Federal Training Center IT`. Interested young people are being prepared to compete in competitions such as the German IT Nationals or [WorldSkills](https://worldskills.org/).
+
+The Project was built using ReactJS. Currently it is being hosted at https://blz-it.de.
 
 ## Available Scripts
 
