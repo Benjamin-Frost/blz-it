@@ -48,3 +48,13 @@ a:hover {
   height: 91px;
   transform: rotateY(180deg);
 }
+
+footer {
+  margin-top: 8rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+footer p {
+  margin-bottom: 0;
+}

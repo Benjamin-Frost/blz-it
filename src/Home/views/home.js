@@ -36,7 +36,7 @@ function Home() {
             gemeinsam mit WorldSkills Germany.
           </h5>
         </Container>
-        <div class="header-divider">
+        <div className="header-divider">
           <Image src={headerDivider} />
         </div>
       </Jumbotron>
@@ -118,6 +118,11 @@ function Home() {
           </Col>
         </Row>
       </Container>
+      <footer className="bg-light">
+        <Container>
+          <p>Test</p>
+        </Container>
+      </footer>
     </div>
   );
 }

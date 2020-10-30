@@ -31,7 +31,7 @@ function SkillHeader(props) {
           </Col>
         </Row>
       </Container>
-      <div class="header-divider">
+      <div className="header-divider">
         <Image src={headerDivider} />
       </div>
     </Jumbotron>
