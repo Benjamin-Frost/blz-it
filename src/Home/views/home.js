@@ -6,6 +6,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Row from "react-bootstrap/Row";
 
 import aeg from "../../assets/img/aeg.jpg";
+import mmbbs from "../../assets/img/mmbbs.jpg";
 import Footer from "../../components/footer";
 import headerDivider from "../../assets/img/header-divider.svg";
 import wsgLogo from "../../assets/img/wsg.png";
@@ -90,7 +91,7 @@ function Home() {
         </Row>
         <Row className="my-4 py-4">
           <Col xs={12} md={6} className="order-first mb-4 mb-md-0">
-            <Image src={aeg} rounded fluid />
+            <Image src={mmbbs} rounded fluid />
           </Col>
           <Col xs={12} md={6} className="order-last">
             <h3>Skill39 – MMBbS</h3>

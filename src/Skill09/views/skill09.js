@@ -8,7 +8,7 @@ function Skill09() {
     <div>
       <SkillHeader
         skillNumber="09"
-        skillName="Software Development for Business"
+        skillName="IT-Software Solutions for Business"
         skillDescription="Die besten jungen Softwareentwickler Deutschlands werden gesucht"
       />
       <Container>
@@ -133,8 +133,8 @@ function Skill09() {
           <h3 className="h1 text-center pb-3">Ansprechpartner</h3>
           <p className="lead text-justify">
             Dr. Olaf Kappler WorldSkills Experte/Bundestrainer Skill 09 –
-            Software Development for Business <br />
-            E-Mail: <a href="mailto:blz-it@bs-nb.de">blz-it@bs-nb.de</a>
+            IT-Software Solutions for Business <br />
+            E-Mail: <a href="mailto:blz@kapplers.de">blz@kapplers.de</a>
           </p>
         </section>
       </Container>
