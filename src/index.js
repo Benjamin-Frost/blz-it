@@ -7,6 +7,7 @@ import "./assets/css/index.css";
 import Home from "./Home";
 import Skill09 from "./Skill09";
 import Skill08 from "./Skill08";
+import { Legal, Privacy } from "./Legals";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +21,12 @@ ReactDOM.render(
         </Route>
         <Route path="/skill08">
           <Skill08 />
+        </Route>
+        <Route path="/legal">
+          <Legal />
+        </Route>
+        <Route path="/privacy">
+          <Privacy />
         </Route>
       </Switch>
     </Router>

@@ -14,11 +14,6 @@ function Skill09() {
       <Container>
         <section className="py-4">
           <h3 className="h1 text-center pb-3">
-            Dein Weg zur Deutschen Meisterschaft
-          </h3>
-        </section>
-        <section className="py-4">
-          <h3 className="h1 text-center pb-3">
             Teilnahmebedingungen &amp; Notwendige Kenntnisse
           </h3>
           <h4>Alter</h4>

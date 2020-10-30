@@ -11,8 +11,8 @@ function Footer() {
             <p>Copyright &copy; WorldSkills Germany - BLZ IT</p>
           </Col>
           <Col xs={12} md={6}>
-            <a href="/impressum">Impressum</a>
-            <a href="/datenschutz">Datenschutz</a>
+            <a href="/legal">Impressum</a>
+            <a href="/privacy">Datenschutz</a>
           </Col>
         </Row>
       </Container>
