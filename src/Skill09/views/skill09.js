@@ -1,5 +1,6 @@
 import Container from "react-bootstrap/Container";
 
+import Footer from "../../components/footer";
 import SkillHeader from "../../components/skill-header";
 
 function Skill09() {
@@ -144,6 +145,7 @@ function Skill09() {
           </p>
         </section>
       </Container>
+      <Footer />
     </div>
   );
 }

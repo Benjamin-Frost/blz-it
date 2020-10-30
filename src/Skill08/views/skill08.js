@@ -1,3 +1,4 @@
+import Footer from "../../components/footer";
 import SkillHeader from "../../components/skill-header";
 
 function Skill08() {
@@ -8,6 +9,7 @@ function Skill08() {
         skillName="Mobile App Development"
         skillDescription="Die besten jungen Appentwickler Deutschlands werden gesucht"
       />
+      <Footer />
     </div>
   );
 }

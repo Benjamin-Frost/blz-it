@@ -9,7 +9,7 @@ import headerDivider from "../assets/img/header-divider.svg";
 
 function SkillHeader(props) {
   return (
-    <Jumbotron className="bg-gradient position-relative">
+    <Jumbotron className="bg-gradient position-relative rounded-0">
       <Container className="text-white text-center pb-xl">
         <Row>
           <Col xs={12} md={6}>

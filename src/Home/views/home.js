@@ -5,9 +5,10 @@ import Image from "react-bootstrap/Image";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Row from "react-bootstrap/Row";
 
-import wsgLogo from "../../assets/img/wsg.png";
 import aeg from "../../assets/img/aeg.jpg";
+import Footer from "../../components/footer";
 import headerDivider from "../../assets/img/header-divider.svg";
+import wsgLogo from "../../assets/img/wsg.png";
 
 function Home() {
   return (
@@ -118,11 +119,7 @@ function Home() {
           </Col>
         </Row>
       </Container>
-      <footer className="bg-light">
-        <Container>
-          <p>Test</p>
-        </Container>
-      </footer>
+      <Footer />
     </div>
   );
 }
