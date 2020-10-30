@@ -133,9 +133,7 @@ function Skill09() {
           <h3 className="h1 text-center pb-3">Ansprechpartner</h3>
           <p className="lead text-justify">
             Dr. Olaf Kappler WorldSkills Experte/Bundestrainer Skill 09 –
-            Software Development for Business WorldSkills Germany
-            Bundesleistungszentrum IT-Software Solutions for Business
-            Neubrandenburg <br />
+            Software Development for Business <br />
             E-Mail: <a href="mailto:blz-it@bs-nb.de">blz-it@bs-nb.de</a>
           </p>
         </section>
