@@ -14,7 +14,9 @@ function Skill08() {
       <Container>
         <section className="py-4">
           <h3 className="h1 text-center pb-3">
-            Teilnahmebedingungen &amp; Notwendige Kenntnisse
+            Teilnahme
+            <wbr />
+            bedingungen &amp; Notwendige Kenntnisse
           </h3>
           <h4>Alter</h4>
           <p className="lead text-justify">
@@ -42,11 +44,16 @@ function Skill08() {
           <p className="lead text-justify">
             Hier werden an insgesamt drei Wettbewerbstagen in vier Sessions
             komplexe Anwendungen im Desktopbereich und mobilen Apps
-            programmiert. Als Entwicklungsumgebungen/Programmiersprachen sind
-            bei der Endrunde der Deutschen Meisterschaft für Desktop-Anwendungen
-            aber nur noch Visual Studio 2019 mit C# und für die
-            App-Programmierung Xamarin bzw. Android Studio mit Java bzw. Kotlin
-            sowie der Microsoft SQL Server zugelassen.
+            programmiert. Als Entwicklungs
+            <wbr />
+            umgebungen/
+            <wbr />
+            Programmier
+            <wbr />
+            sprachen sind bei der Endrunde der Deutschen Meisterschaft für
+            Desktop-Anwendungen aber nur noch Visual Studio 2019 mit C# und für
+            die App-Programmierung Xamarin bzw. Android Studio mit Java bzw.
+            Kotlin sowie der Microsoft SQL Server zugelassen.
           </p>
         </section>
         <section className="py-4">
