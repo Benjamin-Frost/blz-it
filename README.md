@@ -4,6 +4,10 @@
 
 The Project was built using ReactJS. Currently it is being hosted at https://blz-it.de.
 
+## Preview
+
+![Preview of Home](docs/preview.jpg)
+
 ## Available Scripts
 
 In the project directory, you can run:
