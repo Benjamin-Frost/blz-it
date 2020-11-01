@@ -96,27 +96,15 @@ function Home() {
           <Col xs={12} md={6} className="order-last">
             <h3>Skill39 – MMBbS</h3>
             <p className="text-justify">
-              Die{" "}
-              <a
-                href="https://www.mmbbs.de"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Multi Media Berufsbildende Schule Hannover
-              </a>{" "}
-              ist das Bundesleistungszentrum für den Skill39 – IT - Network
-              Systems Administration.
+              Die Multi Media Berufsbildende Schule Hannover ist das Bundes
+              <wbr />
+              leistungszentrum für den Skill39 – IT - Network Systems
+              Administration.
             </p>
-            <Button
-              href="https://www.worldskillsgermany.com/de/wettbewerbe/leistungszentren/"
-              target="_blank"
-              rel="noopener noreferrer"
-              variant="outline-dark"
-              size="lg"
-              className="rounded-pill"
-            >
-              Zu Skill 39
-            </Button>
+            <p class="text-justify">
+              Weitere Informationen dazu finden Sie auf der Webseite von
+              WorldSkills Germany.
+            </p>
           </Col>
         </Row>
       </Container>
